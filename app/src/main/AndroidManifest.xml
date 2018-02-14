@@ -26,10 +26,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
             android:name=".activities.home.HomeActivity"
-            android:label="@string/title_activity_home" />
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activities.TestActivity" />
+        <activity android:name=".activities.unit_1.HelloWordActivity"></activity>
     </application>
 
 </manifest>
