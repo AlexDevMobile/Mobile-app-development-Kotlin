@@ -3,6 +3,7 @@ package com.alexdev.mobileappdevelopment.activities.home
 import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
 import android.support.v7.app.AppCompatActivity
+import com.alexdev.mobileappdevelopment.R
 import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : AppCompatActivity() {
